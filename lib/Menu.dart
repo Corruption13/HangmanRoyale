@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+
 
 
 class Menu extends StatefulWidget {
@@ -42,7 +42,7 @@ class _MenuState extends State<Menu> {
                 ),
                 icon: Icon(Icons.person, color: Colors.grey, ),
                   onPressed: (){
-                    launch('https://github.com/flutter/gallery/') ;
+
                     print("Coming Soon!") ;
                   }
 
